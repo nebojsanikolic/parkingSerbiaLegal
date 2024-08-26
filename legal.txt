@@ -1,0 +1,56 @@
+Parking Legal
+
+Uslovi korišćenja aplikacije "ParkingSerbia":
+
+1. Korišćenjem aplikacije "ParkingSerbia" korisnik prihvata sledeće uslove:
+   
+2. Aplikacija "ParkingSerbia" služi isključivo kao alat za olakšano slanje SMS poruka za plaćanje parkiranja u određenoj zoni.
+
+3. Sve informacije unutar aplikacije, uključujući cene parkiranja i podatke o zonama, mogu biti podložne promenama bez prethodne najave.
+
+4. Aplikacija "ParkingSerbia" ne garantuje tačnost ili ažurnost informacija o parkiranju i zonama. Korisnici se podstiču da provere tačne informacije pre slanja SMS poruke.
+
+5. Korisnici su svesni da su odgovorni za pravilno parkiranje i plaćanje parkiranja u skladu sa zakonskim regulativama i propisima lokalnih parking servisa.
+
+6. Aplikacija "ParkingSerbia" nije odgovorna za bilo kakve kazne ili sankcije koje korisnici mogu dobiti od strane parking servisa zbog nepropisnog parkiranja ili neplaćanja parkiranja.
+
+7. Korišćenjem aplikacije "ParkingSerbia", korisnici prihvataju da aplikacija nije odgovorna za bilo kakvu štetu, gubitak ili neugodnosti koje mogu proizaći iz korišćenja aplikacije.
+
+8. Korisnici su dužni da unesu tačne informacije o registracionoj tablici i broju telefona za slanje SMS poruke.
+
+9. Aplikacija "ParkingSerbia" ne prikuplja niti deli lične podatke korisnika, osim onih koji su neophodni za slanje SMS poruke za plaćanje parkiranja.
+
+10. Korišćenjem aplikacije "ParkingSerbia", korisnici pristaju na uslove korišćenja i politiku privatnosti aplikacije.
+
+11. Aplikacija "ParkingSerbia" zadržava pravo da promeni ili ažurira uslove korišćenja bez prethodne najave.
+
+12. Za sve nedoumice ili pitanja u vezi sa korišćenjem aplikacije "ParkingSerbia", korisnici se mogu obratiti podršci putem dostupnih kontakata unutar aplikacije.
+
+GEMINI
+Uslovi korišćenja aplikacije ParkingSerbia
+Uvod
+Ovi uslovi korišćenja ("Uslovi") definišu pravila i odredbe koje važe za Vaše korišćenje mobilne aplikacije "ParkingSerbia" ("Aplikacija"). Aplikacija je namenjena za pomoć korisnicima u plaćanju parkirnih zona na teritoriji Republike Srbije.
+Saglasnost sa uslovima
+Preuzimanjem, instaliranjem ili korišćenjem Aplikacije, prihvatate i slažete se sa svim odredbama ovih Uslova. Ukoliko se ne slažete sa bilo kojim odredbama ovih Uslova, nemojte preuzimati, instalirati ili koristiti Aplikaciju.
+Funkcionalnost Aplikacije
+Aplikacija nudi sledeće funkcionalnosti:
+* Prikaz dostupnih parkirnih zona na mapi
+* Identifikacija zone u kojoj se korisnik trenutno nalazi
+* Automatsko unos broja telefona i registracije vozila za slanje SMS poruke parking servisu
+Ograničenja odgovornosti
+Aplikacija je samo posrednik koji olakšava proces plaćanja parkirnih zona. Važno je naglasiti da:
+* Aplikacija ne preuzima nikakvu odgovornost za tačnost i ažurnost informacija o zonama parking servisa.Informacije se mogu menjati, a ažuriranja ne moraju biti dostupna uvek.
+* Korisnik je u potpunosti odgovoran za proveru važnosti zone i trajanja parkinga pre slanja SMS poruke.
+* Aplikacija ne snosi odgovornost za eventualne kazne koje korisnik primi od strane parking servisa zbog neispravnog parkiranja, neplaćene parkirnine, netačnih podataka ili zakašnjenja u ažuriranju informacija.
+Dodatna ograničenja
+* Korisnik se obavezuje da će koristiti Aplikaciju u skladu sa svim važećim zakonima i propisima.
+* Korisnik je zabranjen da koristi Aplikaciju na bilo koji način koji bi mogao da ošteti, onesposobi ili preoptereti Aplikaciju ili mrežu na kojoj se Aplikacija nalazi.
+* Korisnik je zabranjen da koristi Aplikaciju za distribuciju štetnog sadržaja, uključujući, ali ne ograničavajući se na, viruse, malver ili spam.
+Izmene uslova
+Rezervišemo pravo da izmenimo ove Uslove u bilo koje vreme bez prethodnog obaveštenja. Izmenjeni Uslovi stupaju na snagu nakon objavljivanja na Aplikaciji. Vaše dalje korišćenje Aplikacije nakon objavljivanja izmenjenih Uslova predstavlja Vašu saglasnost sa izmenjenim Uslovima.
+Zaključna odredba
+Ovi Uslovi se tumače i primenjuju u skladu sa zakonima Republike Srbije. U slučaju spora u vezi sa korišćenjem Aplikacije, nadležan je sud u Beogradu.
+Kontakt informacije
+Ukoliko imate pitanja ili nedoumice u vezi sa ovim Uslovima, kontaktirajte nas na [e-mail protected]
+Odricanje odgovornosti
+Aplikacija je namenjena samo za informativne svrhe i ne treba je smatrati zamenom za zvanične informacije parking servisa.
