@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uslovi korišćenja - ParkingSerbia</title>
+    <style>
+        :root {
+            --primary-color: #007AFF;
+            --text-color: #1d1d1f;
+            --background-color: #f5f5f7;
+            --section-bg: #ffffff;
+            --border-color: #e1e4e8;
+            --section-radius: 20px;
+            --shadow-color: rgba(0, 0, 0, 0.05);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 32px;
+            background: var(--section-bg);
+            border-radius: var(--section-radius);
+            box-shadow: 0 2px 12px var(--shadow-color);
+        }
+
+        h1 {
+            color: var(--text-color);
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            font-weight: 600;
+            letter-spacing: -0.015em;
+        }
+
+        h2 {
+            color: var(--text-color);
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            font-weight: 600;
+            letter-spacing: -0.015em;
+        }
+
+        h3 {
+            color: var(--text-color);
+            margin-top: 30px;
+            font-size: 1.2em;
+            font-weight: 500;
+            letter-spacing: -0.015em;
+        }
+
+        .last-updated {
+            color: #86868b;
+            font-style: normal;
+            margin-bottom: 0;
+            font-size: 0.95em;
+        }
+
+        .section {
+            margin-bottom: 24px;
+            padding: 32px;
+            background: var(--section-bg);
+            border-radius: var(--section-radius);
+            box-shadow: 0 1px 8px var(--shadow-color);
+            transition: all 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 16px var(--shadow-color);
+        }
+
+        ul, ol {
+            padding-left: 25px;
+            margin: 15px 0;
+        }
+
+        li {
+            margin-bottom: 12px;
+            color: var(--text-color);
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: var(--text-color);
+            font-size: 1.05em;
+            line-height: 1.7;
+        }
+
+        footer {
+            background: var(--section-bg);
+            padding: 48px 0;
+            margin-top: 60px;
+            text-align: center;
+            border-radius: var(--section-radius) var(--section-radius) 0 0;
+            box-shadow: 0 -1px 8px var(--shadow-color);
+        }
+
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .app-logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 27.5%;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 12px var(--shadow-color);
+            object-fit: cover;
+            background-color: var(--section-bg);
+        }
+
+        .app-store-badge {
+            width: 156px;
+            transition: transform 0.2s ease;
+        }
+
+        .app-store-badge:hover {
+            transform: scale(1.05);
+        }
+
+        .app-link {
+            text-decoration: none;
+            color: inherit;
+            display: inline-block;
+            transition: transform 0.2s ease;
+        }
+
+        .app-link:hover {
+            transform: scale(1.02);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 15px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .section {
+                padding: 24px;
+                margin-bottom: 20px;
+            }
+
+            header {
+                padding: 24px;
+            }
+
+            .app-logo {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --text-color: #f5f5f7;
+                --background-color: #1d1d1f;
+                --section-bg: #2d2d2f;
+                --border-color: #3d3d3f;
+                --shadow-color: rgba(0, 0, 0, 0.15);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>USLOVI KORIŠĆENJA APLIKACIJE PARKINGSERBIA</h1>
+            <p class="last-updated">Datum poslednje izmene: 12.4.2025. godine</p>
+        </header>
+
+        <div class="section">
+            <p>Molimo vas da pažljivo pročitate ove Uslove korišćenja pre korišćenja aplikacije ParkingSerbia (u daljem tekstu: "Aplikacija"). Instaliranjem i korišćenjem Aplikacije, potvrđujete da ste pročitali, razumeli i da se slažete sa ovim Uslovima korišćenja. Ukoliko se ne slažete sa bilo kojim delom ovih Uslova korišćenja, molimo vas da ne koristite Aplikaciju i deinstalirate je.</p>
+        </div>
+
+        <div class="section">
+            <h2>1. Opis Aplikacije</h2>
+            <p>Aplikacija je alat koji korisnicima omogućava lakše plaćanje SMS parkinga. Aplikacija ne obrađuje direktno plaćanja, već funkcioniše tako što:</p>
+            <ul>
+                <li>priprema SMS poruku u formatu koji je propisan od strane nadležnih parking servisa,</li>
+                <li>automatski unosi broj SMS servisa koji odgovara parking zoni u kojoj se korisnik nalazi (ukoliko je omogućena opcija automatskog lociranja) ili zoni koju korisnik samostalno odabere.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>1.1. Aplikacija je besplatna i bez reklama</h3>
+            <p>Aplikacija je potpuno besplatna za korišćenje i razvojni tim će nastojati da tako i ostane dokle god je to održivo. Korisnicima se neće prikazivati reklame niti će biti izloženi drugim sličnim načinima uznemiravanja tokom korišćenja Aplikacije.</p>
+        </div>
+
+        <div class="section">
+            <h3>1.2. Minimalni tehnički zahtevi</h3>
+            <p>Za optimalnu upotrebu Aplikacije na uređajima kompanije Apple, preporučuje se upotreba uređaja sa operativnim sistemom iOS verzije 16 ili noviji. Razvojni tim ne garantuje ispravno funkcionisanje Aplikacije na starijim verzijama iOS operativnog sistema.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Odgovornost Korisnika</h2>
+            <p>Korisnik je u potpunosti odgovoran za korišćenje Aplikacije. Ovo uključuje, ali se ne ograničava na:</p>
+            <ul>
+                <li>proveru da li je pripremljena SMS poruka ispravna i da odgovara zoni u kojoj je parkirano vozilo,</li>
+                <li>proveru da li je broj SMS servisa ispravno unet,</li>
+                <li>slanje SMS poruke na ispravan broj i u ispravnom formatu,</li>
+                <li>praćenje uputstava i pravila parking servisa za zonu u kojoj je parkirano vozilo.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. Informativni karakter podataka o parking zonama</h2>
+            <p>Sve informacije o parking zonama, uključujući njihovu lokaciju, cene, odgovarajuće brojeve SMS servisa, koje se nalaze u Aplikaciji, imaju isključivo informativni karakter.</p>
+            <p>U slučaju bilo kakvog neslaganja između podataka prikazanih u Aplikaciji i zvaničnih podataka nadležnih parking službi, isključivo će se primenjivati zvanični podaci tih službi.</p>
+            <p>Korisnik je dužan da pre slanja SMS poruke proveri informacije o parking zoni na zvaničnim saobraćajnim tablama postavljenim u zoni gde je parkirano vozilo. Aplikacija ne garantuje potpunu tačnost i aktuelnost ovih informacija.</p>
+        </div>
+
+        <div class="section">
+            <h2>4. Ažurnost podataka</h2>
+            <p>Aplikacija nastoji da obezbedi što je moguće tačnije i ažurnije podatke o parking zonama. Korisnicima se preporučuje da redovno ažuriraju Aplikaciju na svojim uređajima kako bi imali pristup najnovijim informacijama. Međutim, razvojni tim Aplikacije ne može garantovati da su sve informacije uvek potpuno tačne i aktuelne, s obzirom na to da ažuriranje podataka zavisi i od blagovremenog obaveštavanja od strane nadležnih organa i parking servisa, koji često ne ažuriraju svoje javne platforme.</p>
+        </div>
+
+        <div class="section">
+            <h2>5. Obrada privatnih podataka i usaglašenost sa GDPR</h2>
+            <p>Aplikacija ne obrađuje nikakve privatne podatke korisnika niti podatke koji se mogu dovesti u vezu sa korisnikom. Nijedan lični podatak se ne prikuplja, ne čuva niti se deli sa trećim licima. S tim u vezi, korišćenje Aplikacije je u potpunosti usaglašeno sa odredbama Opšte uredbe o zaštiti podataka o ličnosti (GDPR).</p>
+            <p>Svi podaci koji bi se potencijalno mogli smatrati privatnim ili osetljivim (kao što je istorija korišćenja, adresa stanovanja, broj registarskih tablica, preferirane zone i sl.) čuvaju se isključivo na korisnikovom mobilnom telefonu i nikada se ne šalju na servere povezane sa Aplikacijom.</p>
+            <p>Pored toga što Aplikacija ne obrađuje lične podatke, važno je napomenuti da Aplikacija ne prati navike korisnika kako bi prikazivala reklame na bilo koji način.</p>
+        </div>
+
+        <div class="section">
+            <h2>6. Prikupljanje statističkih podataka i podataka o okolini</h2>
+            <p>Aplikacija prikuplja anonimne statističke podatke o korišćenju, kao i podatke koji pomažu u razumevanju promena u okruženju relevantnom za parking (npr., promene zona, proširenje na nova područja, radna vremena naplate parkinga i slično).</p>
+            <p>Detaljnije informacije o načinu prikupljanja i korišćenja ovih podataka biće naknadno objašnjene u posebnom dokumentu ili ažuriranju Aplikacije. Ovi podaci se koriste isključivo u cilju poboljšanja kvaliteta i funkcionalnosti Aplikacije.</p>
+        </div>
+
+        <div class="section">
+            <h2>7. Upotreba API protokola trećih lica</h2>
+            <p>Aplikacija može koristiti API protokole trećih lica kako bi korisnicima pružila dodatne informacije, kao što je, na primer, prikaz aktuelnih cena goriva. Razvojni tim Aplikacije ne može garantovati tačnost, pouzdanost ili dostupnost informacija dobijenih od ovih trećih lica i stoga ne snosi odgovornost za eventualne netačnosti ili nedostupnost takvih informacija. Korisnik je svestan da upotreba ovih funkcija zavisi od dostupnosti i ispravnosti servisa trećih lica.</p>
+        </div>
+
+        <div class="section">
+            <h2>8. Prijava netačnih ili zastarelih podataka</h2>
+            <p>Ukoliko korisnik primeti netačne ili zastarele podatke u Aplikaciji, ima mogućnost da iste prijavi razvojnom timu putem dostupnog obrasca ili na drugi način koji je naveden u Aplikaciji. Razvojni tim će u najkraćem mogućem roku proveriti prijavljene podatke i, ukoliko se potvrdi njihova netačnost, izvršiti neophodne izmene u roku koji retko iznosi duže od tri (3) radna dana.</p>
+        </div>
+
+        <div class="section">
+            <h2>9. Preciznost automatskog lociranja</h2>
+            <p>Preciznost automatskog određivanja parking zone direktno zavisi od kvaliteta GPS čipa i antene mobilnog telefona Korisnika. Razvojni tim Aplikacije ne može garantovati potpunu preciznost automatskog lociranja. Korisnik mora biti svestan da, usled slabijeg GPS signala ili drugih tehničkih ograničenja uređaja, može doći do nepravilnog određivanja parking zone, čak i ako su podaci u Aplikaciji ispravni.</p>
+        </div>
+
+        <div class="section">
+            <h2>10. Dozvola pristupa lokaciji</h2>
+            <p>Za funkcionisanje opcije automatskog lociranja parking zona, neophodno je da korisnik dozvoli Aplikaciji pristup svojoj lokaciji. Ukoliko korisnik ne dozvoli pristup lokaciji, Aplikacija će nastaviti da radi regularno, ali bez mogućnosti automatskog prepoznavanja parking zone. U tom slučaju, korisnik će morati ručno da odabere željenu zonu svaki put prilikom plaćanja parkinga.</p>
+        </div>
+
+        <div class="section">
+            <h2>11. Promene liste naseljenih mesta i područja</h2>
+            <p>Lista gradova, odnosno naseljenih mesta, i broj područja u kojima Aplikacija omogućava prepoznavanje parking zona može se menjati u svakom trenutku, bez prethodne izričite najave korisnicima. Ove promene se vrše u cilju poboljšanja korisničkog iskustva i povećanja zadovoljstva korisnika Aplikacije.</p>
+            <p>Važno je napomenuti da Aplikacija ni na koji način nije povezana, partnerski udružena, niti zvanično podržana ili sponzorisana od strane bilo kog parking servisa, državnog organa ili drugog pravnog tela.</p>
+        </div>
+
+        <div class="section">
+            <h2>12. Odricanje od garancija</h2>
+            <p>Aplikacija se pruža "takva kakva jeste" i "kako je dostupna", bez ikakvih garancija, izričitih ili impliciranih, uključujući, ali ne ograničavajući se na garancije o tačnosti, pouzdanosti, dostupnosti ili prikladnosti za određenu svrhu.</p>
+        </div>
+
+        <div class="section">
+            <h2>13. Ograničenje odgovornosti</h2>
+            <p>U maksimalnoj meri dozvoljenoj važećim zakonima, razvojni tim Aplikacije neće biti odgovoran za bilo kakvu direktnu, indirektnu, slučajnu, posebnu, posledičnu ili kaznenu štetu (uključujući, bez ograničenja, štetu nastalu zbog izdavanja elektronske doplatne parking karte (eDPK), štetu zbog gubitka profita, podataka, upotrebe, dobre volje ili drugih nematerijalnih gubitaka) koja proizlazi iz ili je na bilo koji način povezana sa korišćenjem ili nemogućnošću korišćenja Aplikacije, čak i ako je razvojni tim bio obavešten o mogućnosti takve štete. Ovo uključuje, ali se ne ograničava na štetu nastalu usled nepravilnog korišćenja Aplikacije, oslanjanja na netačne informacije, ili nepravilnog određivanja parking zone.</p>
+        </div>
+
+        <div class="section">
+            <h2>14. Promene uslova korišćenja</h2>
+            <p>Razvojni tim zadržava pravo da u bilo kom trenutku izmeni ove Uslove korišćenja. Sve izmene će biti objavljene u okviru Aplikacije ili na drugi odgovarajući način. Nastavak korišćenja Aplikacije nakon objavljivanja izmena podrazumeva da se korisnik slaže sa izmenjenim Uslovima korišćenja. Preporučuje se da korisnici redovno proveravaju ovu stranicu kako bi bili upoznati sa najnovijom verzijom Uslova korišćenja.</p>
+        </div>
+
+        <div class="section">
+            <h2>15. Kontakt</h2>
+            <p>Za sva pitanja ili nedoumice u vezi sa ovim Uslovima korišćenja, možete nas kontaktirati putem kontakt forme koja se nalazi u Aplikaciji.</p>
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <div class="container">
+            <div class="section contact-form-container">
+                <h2>Kontaktirajte nas</h2>
+                <p class="contact-description">Imate pitanja? Pošaljite nam poruku i odgovorićemo vam u najkraćem roku.</p>
+                
+                <form class="contact-form" id="contactForm" onsubmit="return sendEmail(event)">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Vaše ime" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Vaša poruka" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Pošaljite poruku</button>
+                </form>
+                
+                <div class="contact-divider">ili</div>
+                
+                <div class="direct-email">
+                    <p>Pišite nam direktno na:</p>
+                    <a href="mailto:parkingserbia@gmail.com" class="email-link">parkingserbia@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function sendEmail(event) {
+            event.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const message = document.getElementById('message').value;
+            
+            // Format email body without showing field names
+            const emailBody = `${message}\n\n- ${name}`;
+            const emailSubject = "Poruka sa sajta - ParkingSerbia";
+            
+            // Open email client with properly formatted content
+            window.location.href = `mailto:parkingserbia@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+            
+            // Reset form
+            document.getElementById('contactForm').reset();
+            
+            return false;
+        }
+    </script>
+
+    <footer>
+        <div class="footer-content">
+            <a href="https://apps.apple.com/us/app/parkingserbia/id6550920432" class="app-link" target="_blank">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/cf/27/72cf2774-6d08-a304-086a-90c7c91efdec/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/460x0w.webp" alt="ParkingSerbia App" class="app-logo">
+            </a>
+            <a href="https://apps.apple.com/us/app/parkingserbia/id6550920432" target="_blank">
+                <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" class="app-store-badge">
+            </a>
+        </div>
+    </footer>
+
+    <style>
+        .contact-section {
+            padding: 40px 0;
+            background: var(--background-color);
+        }
+
+        .contact-form-container {
+            text-align: center;
+        }
+
+        .contact-description {
+            color: #86868b;
+            margin-bottom: 30px;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            background: var(--section-bg);
+            color: var(--text-color);
+            font-size: 16px;
+            font-family: inherit;
+            transition: all 0.2s ease;
+        }
+
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 2px rgba(0, 122, 255, 0.1);
+        }
+
+        .submit-button {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            margin: 20px 0;
+        }
+
+        .submit-button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(0, 122, 255, 0.2);
+        }
+
+        .submit-button:active {
+            transform: translateY(0);
+        }
+
+        .contact-divider {
+            color: #86868b;
+            margin: 30px 0;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        .contact-divider::before,
+        .contact-divider::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: var(--border-color);
+            margin: 0 15px;
+        }
+
+        .direct-email {
+            margin-top: 20px;
+        }
+
+        .email-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .form-group input,
+            .form-group textarea {
+                background: var(--section-bg);
+                border-color: var(--border-color);
+            }
+
+            .form-group input:focus,
+            .form-group textarea:focus {
+                border-color: var(--primary-color);
+                box-shadow: 0 0 0 2px rgba(0, 122, 255, 0.2);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .contact-form {
+                padding: 0 20px;
+            }
+        }
+    </style>
+</body>
+</html> 
